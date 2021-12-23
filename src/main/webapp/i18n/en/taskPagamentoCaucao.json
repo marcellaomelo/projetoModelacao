@@ -1,0 +1,39 @@
+{
+  "projetoModelacaoApp": {
+    "taskPagamentoCaucao": {
+      "home": {
+        "title": "Task Pagamento Caucaos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Pagamento Caucao",
+        "createOrEditLabel": "Create or edit a Task Pagamento Caucao",
+        "notFound": "No Task Pagamento Caucaos found"
+      },
+      "created": "A new Task Pagamento Caucao is created with identifier {{ param }}",
+      "updated": "A Task Pagamento Caucao is updated with identifier {{ param }}",
+      "deleted": "A Task Pagamento Caucao is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Pagamento Caucao {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Pagamento Caucao"
+      },
+      "id": "ID",
+      "dataPedido": "Data Pedido",
+      "localTuristicoPedido": "Local Turistico Pedido",
+      "clienteName": "Cliente Name",
+      "clienteEmail": "Cliente Email",
+      "freelancerNumeroReserva": "Freelancer Numero Reserva",
+      "empresaTerciariaNumeroReserva": "Empresa Terciaria Numero Reserva",
+      "precoReserva": "Preco Reserva",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria"
+    }
+  }
+}

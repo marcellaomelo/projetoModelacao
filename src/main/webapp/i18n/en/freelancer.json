@@ -1,0 +1,30 @@
+{
+  "projetoModelacaoApp": {
+    "freelancer": {
+      "home": {
+        "title": "Freelancers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Freelancer",
+        "createOrEditLabel": "Create or edit a Freelancer",
+        "notFound": "No Freelancers found"
+      },
+      "created": "A new Freelancer is created with identifier {{ param }}",
+      "updated": "A Freelancer is updated with identifier {{ param }}",
+      "deleted": "A Freelancer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Freelancer {{ id }}?"
+      },
+      "detail": {
+        "title": "Freelancer"
+      },
+      "id": "ID",
+      "freelancerName": "Freelancer Name",
+      "freelancerDataDisponivel": "Freelancer Data Disponivel",
+      "existeFreelancerDisponivel": "Existe Freelancer Disponivel",
+      "existeMaisQueUmFreelancerDisponivel": "Existe Mais Que Um Freelancer Disponivel",
+      "anosExperienciaFreelancer": "Anos Experiencia Freelancer",
+      "freelancerEscolhido": "Freelancer Escolhido",
+      "freelancerUnicoEscolhido": "Freelancer Unico Escolhido"
+    }
+  }
+}

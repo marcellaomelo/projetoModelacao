@@ -1,0 +1,38 @@
+{
+  "projetoModelacaoApp": {
+    "taskPedidoEmpresaTerciaria": {
+      "home": {
+        "title": "Task Pedido Empresa Terciarias",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Pedido Empresa Terciaria",
+        "createOrEditLabel": "Create or edit a Task Pedido Empresa Terciaria",
+        "notFound": "No Task Pedido Empresa Terciarias found"
+      },
+      "created": "A new Task Pedido Empresa Terciaria is created with identifier {{ param }}",
+      "updated": "A Task Pedido Empresa Terciaria is updated with identifier {{ param }}",
+      "deleted": "A Task Pedido Empresa Terciaria is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Pedido Empresa Terciaria {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Pedido Empresa Terciaria"
+      },
+      "id": "ID",
+      "dataPedido": "Data Pedido",
+      "localTuristicoPedido": "Local Turistico Pedido",
+      "clienteName": "Cliente Name",
+      "clienteEmail": "Cliente Email",
+      "freelancerNumeroReserva": "Freelancer Numero Reserva",
+      "empresaTerciariaNumeroReserva": "Empresa Terciaria Numero Reserva",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria"
+    }
+  }
+}

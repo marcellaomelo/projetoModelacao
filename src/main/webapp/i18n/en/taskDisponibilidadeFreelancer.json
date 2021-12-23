@@ -1,0 +1,32 @@
+{
+  "projetoModelacaoApp": {
+    "taskDisponibilidadeFreelancer": {
+      "home": {
+        "title": "Task Disponibilidade Freelancers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Disponibilidade Freelancer",
+        "createOrEditLabel": "Create or edit a Task Disponibilidade Freelancer",
+        "notFound": "No Task Disponibilidade Freelancers found"
+      },
+      "created": "A new Task Disponibilidade Freelancer is created with identifier {{ param }}",
+      "updated": "A Task Disponibilidade Freelancer is updated with identifier {{ param }}",
+      "deleted": "A Task Disponibilidade Freelancer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Disponibilidade Freelancer {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Disponibilidade Freelancer"
+      },
+      "id": "ID",
+      "dataPedido": "Data Pedido",
+      "localTuristicoPedido": "Local Turistico Pedido",
+      "clienteName": "Cliente Name",
+      "clienteEmail": "Cliente Email",
+      "freelancerNumeroReserva": "Freelancer Numero Reserva",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer"
+    }
+  }
+}

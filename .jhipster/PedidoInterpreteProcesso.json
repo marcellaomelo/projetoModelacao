@@ -1,0 +1,113 @@
+{
+  "fields": [
+    {
+      "fieldName": "dataPedido",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "localTuristicoPedido",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clienteName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clienteEmail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "freelancerNumeroReserva",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaTerciariaNumeroReserva",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precoReserva",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "reservarServico",
+      "fieldType": "Boolean"
+    },
+    {
+      "fieldName": "confirmacaoReserva",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "freelancername"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "freelancerdataDisponivel"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "existeFreelancerDisponivel"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "existeMaisQueUmFreelancerDisponivel"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "anosExperienciaFreelancer"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "freelancerEscolhido"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "freelancerUnicoEscolhido"
+    },
+    {
+      "relationshipName": "empresaTerciaria",
+      "otherEntityName": "EmpresaTerciaria",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "interpreteEmpresaName"
+    },
+    {
+      "relationshipName": "empresaTerciaria",
+      "otherEntityName": "EmpresaTerciaria",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "interpreteEmpresaDataDisponivel"
+    },
+    {
+      "relationshipName": "empresaTerciaria",
+      "otherEntityName": "EmpresaTerciaria",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "pedidoInterpreteEmpresa"
+    }
+  ],
+  "entityType": "process-binding",
+  "processBpmnId": "PedidoInterpreteProcesso",
+  "domainEntityName": "PedidoInterprete",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "name": "PedidoInterpreteProcesso",
+  "changelogDate": "20210401000002",
+  "skipFakeData": true
+}

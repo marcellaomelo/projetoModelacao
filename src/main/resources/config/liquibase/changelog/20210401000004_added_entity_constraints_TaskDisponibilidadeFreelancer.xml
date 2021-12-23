@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity TaskDisponibilidadeFreelancer.
+    -->
+    <changeSet id="20210401000004-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_disponibilidade_freelancer"
+                                 constraintName="fk_task_disponibilidade_freelancer__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_disponibilidade_freelancer"
+                                 constraintName="fk_task_disponibilidade_freelancer__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_disponibilidade_freelancer"
+                                 constraintName="fk_task_disponibilidade_freelancer__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_disponibilidade_freelancer"
+                                 constraintName="fk_task_disponibilidade_freelancer__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+    </changeSet>
+</databaseChangeLog>

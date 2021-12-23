@@ -1,0 +1,34 @@
+{
+  "projetoModelacaoApp": {
+    "taskUnicoFreelancerDisponivel": {
+      "home": {
+        "title": "Task Unico Freelancer Disponivels",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Unico Freelancer Disponivel",
+        "createOrEditLabel": "Create or edit a Task Unico Freelancer Disponivel",
+        "notFound": "No Task Unico Freelancer Disponivels found"
+      },
+      "created": "A new Task Unico Freelancer Disponivel is created with identifier {{ param }}",
+      "updated": "A Task Unico Freelancer Disponivel is updated with identifier {{ param }}",
+      "deleted": "A Task Unico Freelancer Disponivel is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Unico Freelancer Disponivel {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Unico Freelancer Disponivel"
+      },
+      "id": "ID",
+      "dataPedido": "Data Pedido",
+      "localTuristicoPedido": "Local Turistico Pedido",
+      "clienteName": "Cliente Name",
+      "clienteEmail": "Cliente Email",
+      "freelancerNumeroReserva": "Freelancer Numero Reserva",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer"
+    }
+  }
+}

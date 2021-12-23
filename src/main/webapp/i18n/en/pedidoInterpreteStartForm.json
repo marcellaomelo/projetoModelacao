@@ -1,0 +1,27 @@
+{
+  "projetoModelacaoApp": {
+    "pedidoInterpreteStartForm": {
+      "home": {
+        "title": "Pedido Interprete Start Forms",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Pedido Interprete Start Form",
+        "createOrEditLabel": "Create or edit a Pedido Interprete Start Form",
+        "notFound": "No Pedido Interprete Start Forms found"
+      },
+      "created": "A new Pedido Interprete Start Form is created with identifier {{ param }}",
+      "updated": "A Pedido Interprete Start Form is updated with identifier {{ param }}",
+      "deleted": "A Pedido Interprete Start Form is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Pedido Interprete Start Form {{ id }}?"
+      },
+      "detail": {
+        "title": "Pedido Interprete Start Form"
+      },
+      "id": "ID",
+      "dataPedido": "Data Pedido",
+      "localTuristicoPedido": "Local Turistico Pedido",
+      "clienteName": "Cliente Name",
+      "clienteEmail": "Cliente Email"
+    }
+  }
+}

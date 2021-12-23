@@ -1,0 +1,26 @@
+{
+  "projetoModelacaoApp": {
+    "empresaTerciaria": {
+      "home": {
+        "title": "Empresa Terciarias",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Empresa Terciaria",
+        "createOrEditLabel": "Create or edit a Empresa Terciaria",
+        "notFound": "No Empresa Terciarias found"
+      },
+      "created": "A new Empresa Terciaria is created with identifier {{ param }}",
+      "updated": "A Empresa Terciaria is updated with identifier {{ param }}",
+      "deleted": "A Empresa Terciaria is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Empresa Terciaria {{ id }}?"
+      },
+      "detail": {
+        "title": "Empresa Terciaria"
+      },
+      "id": "ID",
+      "interpreteEmpresaName": "Interprete Empresa Name",
+      "interpreteEmpresaDataDisponivel": "Interprete Empresa Data Disponivel",
+      "pedidoInterpreteEmpresa": "Pedido Interprete Empresa"
+    }
+  }
+}

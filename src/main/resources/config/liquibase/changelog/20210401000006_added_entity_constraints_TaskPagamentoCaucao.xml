@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity TaskPagamentoCaucao.
+    -->
+    <changeSet id="20210401000006-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_pagamento_caucao"
+                                 constraintName="fk_task_pagamento_caucao__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_pagamento_caucao"
+                                 constraintName="fk_task_pagamento_caucao__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_pagamento_caucao"
+                                 constraintName="fk_task_pagamento_caucao__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_pagamento_caucao"
+                                 constraintName="fk_task_pagamento_caucao__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_pagamento_caucao"
+                                 constraintName="fk_task_pagamento_caucao__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+
+        <addForeignKeyConstraint baseColumnNames="freelancer_id"
+                                 baseTableName="task_pagamento_caucao"
+                                 constraintName="fk_task_pagamento_caucao__freelancer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="freelancer"/>
+
+        <addForeignKeyConstraint baseColumnNames="empresa_terciaria_id"
+                                 baseTableName="task_pagamento_caucao"
+                                 constraintName="fk_task_pagamento_caucao__empresa_terciaria_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="empresa_terciaria"/>
+
+        <addForeignKeyConstraint baseColumnNames="empresa_terciaria_id"
+                                 baseTableName="task_pagamento_caucao"
+                                 constraintName="fk_task_pagamento_caucao__empresa_terciaria_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="empresa_terciaria"/>
+
+        <addForeignKeyConstraint baseColumnNames="empresa_terciaria_id"
+                                 baseTableName="task_pagamento_caucao"
+                                 constraintName="fk_task_pagamento_caucao__empresa_terciaria_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="empresa_terciaria"/>
+    </changeSet>
+</databaseChangeLog>

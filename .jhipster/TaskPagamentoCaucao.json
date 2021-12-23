@@ -1,0 +1,101 @@
+{
+  "fields": [
+    {
+      "fieldName": "dataPedido",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "localTuristicoPedido",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clienteName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "clienteEmail",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "freelancerNumeroReserva",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "empresaTerciariaNumeroReserva",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precoReserva",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "freelancername"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "freelancerdataDisponivel"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "existeFreelancerDisponivel"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "existeMaisQueUmFreelancerDisponivel"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "anosExperienciaFreelancer"
+    },
+    {
+      "relationshipName": "freelancer",
+      "otherEntityName": "freelancer",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "freelancerEscolhido"
+    },
+    {
+      "relationshipName": "empresaTerciaria",
+      "otherEntityName": "EmpresaTerciaria",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "interpreteEmpresaName"
+    },
+    {
+      "relationshipName": "empresaTerciaria",
+      "otherEntityName": "EmpresaTerciaria",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "interpreteEmpresaDataDisponivel"
+    },
+    {
+      "relationshipName": "empresaTerciaria",
+      "otherEntityName": "EmpresaTerciaria",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "pedidoInterpreteEmpresa"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "PedidoInterpreteProcesso",
+  "processEntityName": "PedidoInterpreteProcesso",
+  "taskBpmnId": "TaskPagamentoCaucao",
+  "domainEntityName": "PedidoInterprete",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskPagamentoCaucao",
+  "changelogDate": "20210401000006"
+}

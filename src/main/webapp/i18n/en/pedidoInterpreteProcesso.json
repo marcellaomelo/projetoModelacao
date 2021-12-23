@@ -1,0 +1,42 @@
+{
+  "projetoModelacaoApp": {
+    "pedidoInterpreteProcesso": {
+      "home": {
+        "title": "Pedido Interprete Processos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Pedido Interprete Processo",
+        "createOrEditLabel": "Create or edit a Pedido Interprete Processo",
+        "notFound": "No Pedido Interprete Processos found"
+      },
+      "created": "A new Pedido Interprete Processo is created with identifier {{ param }}",
+      "updated": "A Pedido Interprete Processo is updated with identifier {{ param }}",
+      "deleted": "A Pedido Interprete Processo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Pedido Interprete Processo {{ id }}?"
+      },
+      "detail": {
+        "title": "Pedido Interprete Processo"
+      },
+      "id": "ID",
+      "dataPedido": "Data Pedido",
+      "localTuristicoPedido": "Local Turistico Pedido",
+      "clienteName": "Cliente Name",
+      "clienteEmail": "Cliente Email",
+      "freelancerNumeroReserva": "Freelancer Numero Reserva",
+      "empresaTerciariaNumeroReserva": "Empresa Terciaria Numero Reserva",
+      "precoReserva": "Preco Reserva",
+      "reservarServico": "Reservar Servico",
+      "confirmacaoReserva": "Confirmacao Reserva",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "projetoModelacaoApp": {
+    "taskReservaServico": {
+      "home": {
+        "title": "Task Reserva Servicos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Reserva Servico",
+        "createOrEditLabel": "Create or edit a Task Reserva Servico",
+        "notFound": "No Task Reserva Servicos found"
+      },
+      "created": "A new Task Reserva Servico is created with identifier {{ param }}",
+      "updated": "A Task Reserva Servico is updated with identifier {{ param }}",
+      "deleted": "A Task Reserva Servico is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Reserva Servico {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Reserva Servico"
+      },
+      "id": "ID",
+      "dataPedido": "Data Pedido",
+      "localTuristicoPedido": "Local Turistico Pedido",
+      "clienteName": "Cliente Name",
+      "clienteEmail": "Cliente Email",
+      "freelancerNumeroReserva": "Freelancer Numero Reserva",
+      "empresaTerciariaNumeroReserva": "Empresa Terciaria Numero Reserva",
+      "precoReserva": "Preco Reserva",
+      "reservarServico": "Reservar Servico",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "projetoModelacaoApp": {
+    "pedidoInterprete": {
+      "home": {
+        "title": "Pedido Interpretes",
+        "refreshListLabel": "Refresh list",
+        "notFound": "No Pedido Interpretes found"
+      },
+      "detail": {
+        "title": "Pedido Interprete"
+      },
+      "id": "ID",
+      "dataPedido": "Data Pedido",
+      "localTuristicoPedido": "Local Turistico Pedido",
+      "clienteName": "Cliente Name",
+      "clienteEmail": "Cliente Email",
+      "freelancerNumeroReserva": "Freelancer Numero Reserva",
+      "empresaTerciariaNumeroReserva": "Empresa Terciaria Numero Reserva",
+      "precoReserva": "Preco Reserva",
+      "reservarServico": "Reservar Servico",
+      "confirmacaoReserva": "Confirmacao Reserva",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria",
+      "empresaTerciaria": "Empresa Terciaria"
+    }
+  }
+}

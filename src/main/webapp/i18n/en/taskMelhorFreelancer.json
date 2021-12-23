@@ -1,0 +1,34 @@
+{
+  "projetoModelacaoApp": {
+    "taskMelhorFreelancer": {
+      "home": {
+        "title": "Task Melhor Freelancers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Task Melhor Freelancer",
+        "createOrEditLabel": "Create or edit a Task Melhor Freelancer",
+        "notFound": "No Task Melhor Freelancers found"
+      },
+      "created": "A new Task Melhor Freelancer is created with identifier {{ param }}",
+      "updated": "A Task Melhor Freelancer is updated with identifier {{ param }}",
+      "deleted": "A Task Melhor Freelancer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Task Melhor Freelancer {{ id }}?"
+      },
+      "detail": {
+        "title": "Task Melhor Freelancer"
+      },
+      "id": "ID",
+      "dataPedido": "Data Pedido",
+      "localTuristicoPedido": "Local Turistico Pedido",
+      "clienteName": "Cliente Name",
+      "clienteEmail": "Cliente Email",
+      "freelancerNumeroReserva": "Freelancer Numero Reserva",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer",
+      "freelancer": "Freelancer"
+    }
+  }
+}
